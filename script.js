@@ -7,12 +7,13 @@ function threeSum(arr, target) {
 				let sum=arr[i]+arr[j]+arr[k];
 				let diff=target-sum;
 					if(diff<currDiff){
-						currDiff=diff;
+						currDiff=diff
+							let x=sum;
 					}
 			}
 		}
 	}
-  return currDiff;
+  return x ;
 }
 
 module.exports = threeSum;
